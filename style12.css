@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#outer{
+    background-color: #a22b55;
+    width: 30%;
+    padding: 18px 100px;
+}  
+#inner{
+    background-color: #75203f;
+    color:white;
+    padding: 15px 60px;
+}
+td{
+    padding:7px;
+}
+#btn {
+    text-align: center; 
+}
+button{
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+}
